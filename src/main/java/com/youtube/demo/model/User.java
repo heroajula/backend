@@ -14,16 +14,16 @@ public class User extends ParentEntity {
 	private static final long serialVersionUID = 8435405591663518471L;
 	
 	@Column(name = "first_name", nullable = false, length = 255)
-	private String firstname;
+	private String firstName;
 	
 	@Column(name = "second_name", nullable = true, length = 255)
-	private String secondname;
+	private String secondName;
 	
 	@Column(name = "first_surname", nullable = false, length = 255)
-	private String firstsurname;
+	private String firstSurname;
 	
 	@Column(name = "second_surname", nullable = true, length = 255)
-	private String secondsurname;
+	private String secondSurname;
 	
 	@Column(name = "phone", nullable = true, length = 255)
 	private String phone;
@@ -31,29 +31,29 @@ public class User extends ParentEntity {
 	@Column(name = "address", nullable = false, length = 255)
 	private String address;
 	
-	public String getFirstname() {
-		return firstname;
+	public String getFirstName() {
+		return firstName;
 	}
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
-	public String getSecondname() {
-		return secondname;
+	public String getSecondName() {
+		return secondName;
 	}
-	public void setSecondname(String secondname) {
-		this.secondname = secondname;
+	public void setSecondName(String secondName) {
+		this.secondName = secondName;
 	}
-	public String getFirstsurname() {
-		return firstsurname;
+	public String getFirstSurname() {
+		return firstSurname;
 	}
-	public void setFirstsurname(String firstsurname) {
-		this.firstsurname = firstsurname;
+	public void setFirstSurname(String firstSurname) {
+		this.firstSurname = firstSurname;
 	}
-	public String getSecondsurname() {
-		return secondsurname;
+	public String getSecondSurname() {
+		return secondSurname;
 	}
-	public void setSecondsurname(String secondsurname) {
-		this.secondsurname = secondsurname;
+	public void setSecondSurname(String secondSurname) {
+		this.secondSurname = secondSurname;
 	}
 	public String getPhone() {
 		return phone;
